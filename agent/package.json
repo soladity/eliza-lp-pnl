@@ -70,6 +70,7 @@
         "@elizaos/plugin-image-generation": "workspace:*",
         "@elizaos/plugin-lens-network": "workspace:*",
         "@elizaos/plugin-lit": "workspace:*",
+        "@elizaos/plugin-lp-pnl": "workspace:*",
         "@elizaos/plugin-massa": "workspace:*",
         "@elizaos/plugin-mind-network": "workspace:*",
         "@elizaos/plugin-moralis": "workspace:*",
