@@ -3,7 +3,7 @@
     "clients": [],
     "modelProvider": "openrouter",
     "settings": {},
-    "plugins": [],
+    "plugins": ["@elizaos/plugin-lp-pnl"],
     "bio": [
         
     ],

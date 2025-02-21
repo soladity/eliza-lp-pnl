@@ -11,7 +11,6 @@ export default defineConfig({
         "@elizaos/core",
         "dotenv",
         "fs",
-        "zod",
-        "axios"
+        "zod"
     ]
 });

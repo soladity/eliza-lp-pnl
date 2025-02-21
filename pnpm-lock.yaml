@@ -3519,6 +3519,9 @@ importers:
       axios:
         specifier: ^1.7.9
         version: 1.7.9
+      node-cache:
+        specifier: 5.1.2
+        version: 5.1.2
       tsup:
         specifier: 8.3.5
         version: 8.3.5(@swc/core@1.10.14(@swc/helpers@0.5.15))(jiti@2.4.2)(postcss@8.5.1)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.7.0)
