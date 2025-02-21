@@ -172,4 +172,28 @@ export class BirdeyeProvider extends BaseCachedProvider {
             headers: options.headers,
         });
     }
+
+    // Get list of trades of a certain pair or market with time bound option.
+    public async fetchDefiTradesPair(
+        params: BirdeyeApiParams,
+        options: { headers?: Record<string, string> } = {}
+    ) {
+        return this.fetchWithCacheAndRetry<BirdeyeApiResponse>({
+            url: BIRDEYE_ENDPOINTS.defi.trades_pair,
+            params,
+            headers: options.headers,
+        });
+    }
+
+    // Get list of trades of a certain pair or market with time bound option.
+    public async fetchDefiTradesPairSeekByTime(
+        params: BirdeyeApiParams,
+        options: { headers?: Record<string, string> } = {}
+    ) {
+        return this.fetchWithCacheAndRetry<BirdeyeApiResponse>({
+            url: BIRDEYE_ENDPOINTS.defi.trades_pair_seek,
+            params,
+            headers: options.headers,
+        });
+    }
 }
