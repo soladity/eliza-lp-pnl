@@ -160,6 +160,7 @@ import { quickIntelPlugin } from "@elizaos/plugin-quick-intel";
 
 import { trikonPlugin } from "@elizaos/plugin-trikon";
 import arbitragePlugin from "@elizaos/plugin-arbitrage";
+import { lpPnlPlugin } from "@elizaos/plugin-lp-pnl";
 const __filename = fileURLToPath(import.meta.url); // get the resolved path to the file
 const __dirname = path.dirname(__filename); // get the name of the directory
 
@@ -1189,6 +1190,7 @@ export async function createAgent(
                 ? avalanchePlugin
                 : null,
             getSecret(character, "BIRDEYE_API_KEY") ? birdeyePlugin : null,
+            getSecret(character, "BIRDEYE_API_KEY") ? lpPnlPlugin : null,
             getSecret(character, "ECHOCHAMBERS_API_URL") &&
             getSecret(character, "ECHOCHAMBERS_API_KEY")
                 ? echoChambersPlugin

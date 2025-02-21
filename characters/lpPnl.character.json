@@ -1,0 +1,44 @@
+{
+    "name": "Raydium LP PNL",
+    "clients": [],
+    "modelProvider": "openrouter",
+    "settings": {},
+    "plugins": ["@elizaos/plugin-lp-pnl"],
+    "bio": [
+        
+    ],
+    "lore": [
+        
+    ],
+    "knowledge": [
+        
+    ],
+    "messageExamples": [
+        []
+    ],
+    "postExamples": [],
+    "topics": [],
+    "style": {
+        "all": [],
+        "chat": [],
+        "post": []
+    },
+    "adjectives": [],
+    "twitterSpaces": {
+        "maxSpeakers": 2,
+        "topics": [],
+        "typicalDurationMinutes": 45,
+        "idleKickTimeoutMs": 300000,
+        "minIntervalBetweenSpacesMinutes": 1,
+        "businessHoursOnly": false,
+        "randomChance": 1,
+        "enableIdleMonitor": true,
+        "enableSttTts": true,
+        "enableRecording": false,
+        "voiceId": "21m00Tcm4TlvDq8ikWAM",
+        "sttLanguage": "en",
+        "gptModel": "gpt-3.5-turbo",
+        "systemPrompt": "You are a helpful AI co-host assistant.",
+        "speakerMaxDurationMs": 240000
+    }
+}
